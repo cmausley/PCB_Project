@@ -10,7 +10,7 @@
 
 body {
   margin: 0;
-  font-family: Arial;
+  font-family: 'Raleway', sans-serif;
   font-size: 17px;
 }
 
@@ -28,12 +28,23 @@ body {
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
+  margin-left: 400px;
+  margin-bottom: 200px;
   padding: 20px;
+  font-family: 'Raleway', sans-serif;
+
 }
+
 
 </style>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
 </head>
+
 <body>
 
 <video autoplay muted loop id="myVideo">
@@ -42,9 +53,11 @@ body {
 </video>
 
 <div class="content">
+    <div class="animate__animated animate__slideInRight">
   <h1>Welcome to Salt Water Taffy</h1>
   <p>We're excited to become your next beach home for plenty of future family memories.</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  <a class="btn btn-primary btn-lg" style="background-color: gray" href="#" role="button">Learn more</a>
+</div>
 </div>
 
 </body>
